@@ -14,7 +14,11 @@ header {
   height: 90px;
 }
 
+.navbar{
+  color: #a200e2; 
+}
 .nav-item {
+  font-style: italic bold;
   font-size: x-large;
   color: black;
 }
