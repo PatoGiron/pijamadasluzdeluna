@@ -23,7 +23,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"/>
     <!-- mis estilos -->
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
   <body>
     <header>
@@ -59,8 +59,10 @@
         </div>
       </nav>
     </header>
+    <section class="hero">
+      <h1>Contacto</h1>
+    </section>
     <section class="container-fluid py-5">
-    <h1>Contacto</h1>
     <form class="row mx-lg-auto">
     <div class="row gx-md-6">
       <div class="col-auto">
@@ -131,6 +133,7 @@
           class="form-control"
           id="exampleFormControlTextarea1"
           rows="5"
+          style="resize: none"
           placeholder="Descripcion del evento"
         ></textarea>
       </div>
@@ -138,7 +141,6 @@
         <button type="submit" class="btn btn-primary">Enviar</button>
       </div>
     </form>
-    </section>
     <h2>Donde estamos</h2>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13134.049134948806!2d-58.45955!3d-34.6164924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d1859923943fe3b%3A0x49e5b1cbc4cd253c!2sPijamadas%20a%20la%20luz%20de%20la%20luna!5e0!3m2!1ses-419!2sar!4v1711993836147!5m2!1ses-419!2sar"
@@ -149,13 +151,14 @@
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
+  </section>
   </body>
-  <footer>
+  <footer class="footer">
     <figure>
       <a href="/index.html">
         <img
           class="logo"
-          src="/imagenes/logo.jpeg"
+          src="../imagenes/logo.jpeg"
           alt="logo - PIJAMADAS A LA LUZ DE LA LUNA"
         />
       </a>
@@ -169,7 +172,7 @@
     <figure class="redes">
       <i class="fa-brands fa-square-facebook fa-2xl" style="color: #1e00ff"></i>
     </figure>
-    <h6>Copyright 1999 - 2024</h6>
+    <h6>Copyright 2020 - 2024</h6>
     <h5>Pijamadas a la Luz de la Luna</h5>
   </footer>
 
